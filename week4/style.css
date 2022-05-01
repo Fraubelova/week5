@@ -1,0 +1,45 @@
+h1 {
+    font-family: Raleway, Times, serif;
+    color: #3D3F42;
+    padding-left: 20px;
+}
+
+.menu {
+    text-decoration: none;
+    color: #333333;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+
+}
+
+#logo {
+
+    /* position: absolute; */
+    width: 161px;
+    height: 96px;
+    left: 274px;
+    top: 14px;
+}
+
+h2,
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+
+h2 {
+    color: yellow;
+}
+
+h3 {
+    color: crimson;
+}
+
+html {
+    padding-top: 5px;
+}
+
+a:link {
+    color: red;
+}

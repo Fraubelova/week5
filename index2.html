@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+ <h1>Опросник</h1>
+ <form action="script.php" method="get">
+ <fieldset>
+     <legend>Имя</legend>
+<div>
+     <label for="name">Кличка питомца</label>
+     <input type="text" id="name" />
+    </div>
+ <div>
+ <label for="fio">Имя владельца</label>
+ <input type="text" id="fio" />
+</div>
+ <div>
+     <label for="Kontakt">Контакты владельца</label>
+     <input type="text" id="Kontakt" />
+ </div>
+</fieldset>
+ <div>Выберите породу:</div>
+ <div>
+     <select>
+         <option value="1">Ангорская кошка</option>
+         <option value="2">Meйн-кун</option>
+         <option value="3">Персидская кошка</option>
+         <option value="4">Британская короткошерстная</option>
+         <option value="5">Шотладская вислоухая</option>
+         <option value="6">Порода неизвестна</option>
+     </select>
+ </div>
+ <div>Чем питается:</div>
+     <div>
+        <input type="checkbox" id="dry"/>
+        <label for="dry">сухой корм</label>
+     </div>
+     <div>
+         <input type="checkbox" id="wet"/>
+         <label for="wet">влажный корм</label>
+          </div>
+          <div>
+              <input type="checkbox" id="natural"/>
+              <label for="natural">натуральный корм</label>
+          </div>
+          <div>
+              <label for="name">Укажите пол питомца:</label><br/>
+              самка<input type="radio" name="sex"/><br/>
+              самец<input type="radio" name="sex"/>
+         </div>
+ <div>Комментарий</div>
+ <div><textarea rows="15"></textarea>
+ </div>
+ <div>Добавьте фотографию своего питомца
+     <input type="file"/>
+ </div>
+ <div><button>Сохранить данные</button></div>
+
+</form>
+</body>
+</html>

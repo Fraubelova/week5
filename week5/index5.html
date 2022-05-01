@@ -4,9 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flexbox</title>
+    <style>
+        p, header, main, nav, section, aside, footer {
+            border: 1px solid red;
+
+        }
+        
+        .flexcontainer {
+            border: 1px solid blue;
+            flex-flow: center wrap;
+         display:flex;
+         justify-content: space-around;
+         width: 50%;
+         
+        }
+        .flex {
+            border: 1px solid blue;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+
+        }
+        .flex1 {
+            border: 1px solid blue;
+            flex-flow: center wrap;
+         display:flex;
+         justify-content: space-around;
+         width: 50%;
+            
+        }
+        .flex2 {
+
+border: 1px solid blue;
+            flex-flow: flex-end wrap;
+         display:flex;
+         justify-content: flex-end;
+         
+
+        }
+        .flex3 {
+
+border: 1px solid blue;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+        
+    
+    </style>
 </head>
 <body>
+    <header>Шапка страницы
+        <nav>
+            Навигация
+        </nav>
+  </header>
+  <main>
+      <sektion>
+          <h1>Заголовок страницы</h1>
+        
+          <div class="flexcontainer">
+            <p>Основная часть</p>
+            </div>
+
+            <div class="flex">
+
+            <p>Еще1</p>
+            <p>Еще2</p>
+            </div>
+            <div class="flex1">
+            <p>Еще3</p>
+            </div>
+      </sektion>
+  </main>
+  <aside>
+      <div class="flex2">
+      <p>Боковая область</p>
+      </div>
+  </aside>
+    
+  <footer>
+      <div class="flex3">
+      <p>Секция 1</p>
+      <p>Cекция 2</p>
+      <p>Секция 3</p>
+      <p>Секция 4</p>
+      </div>
+
+  </footer>
+
+    
+    
+    
+
+
     
 </body>
 </html>
