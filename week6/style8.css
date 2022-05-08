@@ -1,11 +1,14 @@
-.menu-nav {
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    font-size: 2rem;
-    font-family: Roboto, sans-serif;
+@media screen and (max-width: 1024px) {
+
+    .menu-nav {
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        font-size: 2rem;
+        font-family: Roboto, sans-serif;
+    }
 }
 
 .container {
