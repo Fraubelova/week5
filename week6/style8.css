@@ -1,25 +1,104 @@
-@media screen and (max-width: 1024px) {
+body {
 
-    .menu-nav {
-        display: flex;
-        justify-content: space-around;
-        text-decoration: none;
-        text-align: center;
-        align-items: center;
-        font-size: 2rem;
-        font-family: Roboto, sans-serif;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.menu-nav {
+    padding-top: 34px;
+    padding-bottom: 34px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-left: 84px;
+    margin-right: 42px;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.menu-nav p {
+    margin: 0;
+    margin-right: 48px;
+}
+
+.menu_nav__burger {
+    display: none;
+}
+
+.menu-nav button {
+    margin-left: auto;
+    height: 60px;
+    /* width: 300px; */
+    background-image: url(./rectangle_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    padding-left: 50px;
+    padding-right: 64px;
+    color: black;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-nav p {
+        display: none;
+    }
+
+    .menu-nav .menu_nav__burger {
+        display: block;
+        position: absolute;
+
+
     }
 }
 
 .container {
-    background-color: gray;
-    width: 100%;
-    height: 100%;
+    width: 600px;
+    margin: auto;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.container h1,
+h2 {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Arial;
+    margin: 0;
+}
+
+.container p {
+    margin: 0;
+}
+
+.container img {
+    width: 66px;
+}
+
+.container button {
     display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    text-align: center;
     align-items: center;
-    font-size: 2rem;
-    font-family: Roboto, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.smallcontainer {
+    display: block;
+    border: 2rem;
+    border-radius: 16px;
+    border-color: white;
+    width: 316px;
+    height: 380px;
 }
